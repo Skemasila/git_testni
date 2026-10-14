@@ -1,10 +1,5 @@
-# Izvršni fajlovi (Executables)
 *.exe
 *.out
 *.app
 *.o
-
-# IDE i Build folderi
 .vscode/
-build/
-bin/

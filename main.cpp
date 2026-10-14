@@ -8,7 +8,7 @@ int main() {
     std::cout << "Test sabiranja (5 + 3): " << Calculator::add(5, 3) << "\n";
 
     TaskManager manager;
-    manager.addTask("Nauciti osnove Gita");
+    manager.addTask("Nauciti osnove Git a");
     manager.addTask("Napraviti PDF dokumentaciju za profesora");
     manager.listTasks();
     return 0;
