@@ -6,6 +6,7 @@ int main() {
     std::cout << "=== Pametni Kalkulator i Task Manager (C++) ===\n\n";
 
     std::cout << "Test sabiranja (5 + 3): " << Calculator::add(5, 3) << "\n";
+    std::cout << Calculator::multiply(2, 3) << "\n";
 
     TaskManager manager;
     manager.addTask("Nauciti osnove Git a");
