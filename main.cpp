@@ -9,7 +9,7 @@ int main() {
 
     TaskManager manager;
     manager.addTask("Nauciti osnove Git a");
-    manager.addTask("Napraviti PDF dokumentaciju za profesora");
+    manager.addTask("Napraviti PDF dokumentaciju za profesorja");
     manager.listTasks();
     return 0;
 }
