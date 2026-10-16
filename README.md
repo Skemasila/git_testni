@@ -1,10 +1,13 @@
-# Git C++ Testni Projekt
+# Projekt C++ Testni Repozitorij
 
-Ovaj C++ projekt sluzi za demonstraciju i ucenje naprednog koristenja Git-a i GitHub-a.
+Preprost C++ projekt za ucenje in demonstracijo naprednega upravljanja razlicic z orodjem Git ter GitHub (vkljucno s CI/CD in GPG podpisovanjem).
 
-## Sadrzaj
-- Osnovne kalkulatorske operacije (`calculator.cpp`)
-- Jednostavan upravitelj zadataka (`tasks.cpp`)
+## Vsebina projekta
+- **Kalkulator (`calculator.cpp`, `calculator.h`)**: Osnovne racunske operacije z obdelavo deljenja z niclo.
+- **Upravitelj nalog (`tasks.cpp`, `tasks.h`)**: Enostavno upravljanje s seznamom nalog.
+- **Glavni program (`main.cpp`)**: Povezuje in poganja module.
 
-## Kompajliranje
-`g++ main.cpp calculator.cpp tasks.cpp -o app`
+## Kompajliranje in zagon (MSVC)
+```bash
+cl /EHsc main.cpp calculator.cpp tasks.cpp /Fe:app.exe
+./app.exe

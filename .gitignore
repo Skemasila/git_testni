@@ -1,5 +1,19 @@
+# Prevedene in izvedljive datoteke(C++)
 *.exe
 *.out
 *.app
+*.obj
 *.o
+
+# Razvojna okrolja in urejevalniki
 .vscode/
+.vs/
+*.user
+
+# Obcutljivi podatki in skrivosti
+.env
+config/secrets.json
+
+# Zacasni i log fajlovi
+*.log
+*.tmp
