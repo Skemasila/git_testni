@@ -1,0 +1,23 @@
+name: C++ CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup MSVC
+        uses: ilammy/msvc-dev-cmd@v1
+
+      - name: Build projekt
+        run: cl /EHsc main.cpp calculator.cpp tasks.cpp /Fe:app.exe
+
+      - name: Run aplikacija
+        run: app.exe
