@@ -1,0 +1,3 @@
+[submodule "testFolder/submodule"]
+	path = testFolder/submodule
+	url = https://github.com/Skemasila/git_testni.git
